@@ -1,0 +1,25 @@
+nav {
+  position: sticky;
+  top: 0;
+  flex: 0.01;
+  background-color: #9fd9da;
+  display: flex;
+  padding: 0 50px;
+  height: 100vh;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  gap: 130px;
+  font-family: monospace;
+  font-size: 38px;
+  border-left: #0d1821 20px solid;
+  a {
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none;
+    color: #0d1821;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}

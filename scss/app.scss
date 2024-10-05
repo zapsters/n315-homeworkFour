@@ -1,0 +1,17 @@
+#app {
+  padding: 20px;
+  flex: 1;
+  font-family: monospace;
+  .fc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    flex-wrap: wrap;
+    img {
+      height: 300px;
+      border: 2px dashed #0d1821;
+    }
+  }
+}

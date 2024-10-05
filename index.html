@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomeworkFour</title>
+    <!-- <link rel="icon" type="image/x-icon" href="/images/favicon.ico" /> -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <div class="hero">
+          <h1>Paper Plane Solutions</h1>
+        </div>
+        <div id="app"></div>
+      </div>
+      <nav>
+        <a href="#home" class="close-modal">Home</a>
+        <a href="#about">About</a>
+        <a id="loginBtn">Login</a>
+      </nav>
+    </div>
+    <div class="modal" id="modal" style="display: none">
+      <div class="modalBackground close-modal"></div>
+      <div class="alert">
+        <span class="xBtn close-modal">X</span>
+        <span class="feedback">null</span>
+        <div>
+          <button class="button--cancel close-modal">Cancel</button>
+          <button class="button--close close-modal">Close</button>
+          <button class="button--signin">Sign-In</button>
+        </div>
+      </div>
+    </div>
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script type="module" src="app/app.js"></script>
+    <script type="module" src="model/model.js"></script>
+  </body>
+</html>
